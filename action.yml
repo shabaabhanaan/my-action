@@ -1,6 +1,9 @@
 name: "Hello World JS Action"
 description: "A simple JavaScript GitHub Action that greets Hanaan"
+name: "Hello World JS Action"
+description: "A simple JS action example"
 author: "Hanaan"
+
 
 runs:
   using: "node16"

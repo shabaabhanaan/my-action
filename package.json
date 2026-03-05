@@ -1,21 +1,14 @@
 {
-  "name": "my-action",
+  "name": "hello-world-js-action",
   "version": "1.0.0",
-  "description": "This repository contains a **JavaScript-based GitHub Action** that prints a greeting message. It demonstrates how to create a custom GitHub Action using Node.js and YAML workflows.",
+  "description": "A simple GitHub Action in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shabaabhanaan/my-action.git"
+  "dependencies": {
+    "@actions/core": "^1.10.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/shabaabhanaan/my-action/issues"
-  },
-  "homepage": "https://github.com/shabaabhanaan/my-action#readme"
+  "author": "Hanaan",
+  "license": "MIT"
 }

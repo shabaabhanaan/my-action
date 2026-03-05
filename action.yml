@@ -1,17 +1,17 @@
-name: "Hello World Js Action"
-description: "A simple JavaScript action that prints 'Hello World' to the console."
+name: "Hello World JS Action"
+description: "A simple JavaScript GitHub Action that greets Hanaan"
 author: "Hanaan"
+
 runs:
   using: "node16"
   main: "index.js"
 
 inputs:
-name:
-  description: "The name to greet"
-  required: false
-  default: "World"
+  name:
+    description: "Name to greet"
+    required: false
+    default: "Hanaan"
 
-Outputs:
-greeting:
-  description: "The greeting message"
-  
+outputs:
+  greeting:
+    description: "The greeting message"

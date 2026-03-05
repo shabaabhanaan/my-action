@@ -16,4 +16,4 @@ jobs:
       - name: Run JS Action
         uses: ./
         with:
-          name: "Gaviru"
+          name: "Hanaan"

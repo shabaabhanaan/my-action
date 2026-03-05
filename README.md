@@ -5,8 +5,13 @@ This repository contains a **JavaScript-based GitHub Action** that prints a gree
 ---
 
 ## Project Structure
-
----
+my-action/
+├─ action.yml # Metadata for the GitHub Action
+├─ index.js # JavaScript code for the action
+├─ package.json # Node dependencies
+└─ .github/
+└─ workflows/
+└─ main.yml # Workflow to run the action
 
 ## Features
 
@@ -81,10 +86,3 @@ Make sure action.yml and index.js are in the root of your repository.
 License
 
 MIT License
-
-
----
-
-If you want, I can also make a **version with screenshots and step-by-step guide for VS Code**, which is perfect for showing your assignment.  
-
-Do you want me to make that?

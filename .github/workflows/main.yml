@@ -1,6 +1,15 @@
+name: JS Action Workflow
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
   run-js-action:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -8,12 +17,12 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 16  # Match action.yml node version
 
       - name: Install dependencies
         run: npm install
 
       - name: Run JS Action
-        uses: ./
+        uses: ./               # Runs your action from the repo
         with:
-          name: "Hanaan"
+          name: "Gaviru"
